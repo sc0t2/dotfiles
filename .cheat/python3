@@ -1,0 +1,3 @@
+# create new python3 virtual environment
+python3 -m venv /path/to/new/virtual/environment
+
