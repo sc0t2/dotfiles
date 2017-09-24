@@ -220,7 +220,7 @@ bindsym $mod+shift+x exec i3lock --dpms --ignore-empty-password --image=/home/sc
 exec_always feh --no-fehbg --bg-scale --randomize ~/Wallpapers/*
 
 # launch startup programs
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
