@@ -1,0 +1,10 @@
+URxvt.visualBell:       true
+URxvt.font:             xft:Inconsolata:size=14
+URxvt.scrollBar:        false
+
+!color theme
+#include "/home/scott/Terminal_themes/tomorrow_dark"
+
+!pseudo-transparency
+URxvt.transparent:      true
+URxvt.shading:          20
