@@ -13,4 +13,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-export PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/bin/shell-scripts:$HOME/Tools
+if [ -f /etc/bash_completion ]; then
+	. /etc/bash_completion
+fi
