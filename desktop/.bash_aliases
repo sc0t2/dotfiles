@@ -21,3 +21,6 @@ alias fgrep='fgrep --color=auto'
 
 # get public IP address
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+# update / upgrade
+alias upgrade='sudo apt-get update && sudo apt-get upgrade'
