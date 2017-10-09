@@ -13,6 +13,9 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-if [ -f /etc/bash_completion ]; then
-	. /etc/bash_completion
+# enable color support of ls
+if [ "$TERM" != "dumb" ]; then
+    eval "`dircolors ~/.mydircolors`"
 fi
+
+export PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/bin/shell-scripts:$HOME/Tools

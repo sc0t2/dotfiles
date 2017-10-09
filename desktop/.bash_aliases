@@ -1,6 +1,8 @@
 alias ls='ls --color=auto'
 alias l.='ls -Ad .*'
 alias ll='ls -al'
+alias dir='ls --color=auto --format=vertical'
+alias vdir='ls --color=auto --format=long'
 alias vi='/usr/local/bin/vim'
 alias c='clear'
 alias df='df -h'
@@ -24,3 +26,7 @@ alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 # update / upgrade
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+
+# disable screensaver & dpms for watching long videos
+alias moviemode='xset -dpms && xset s off'
+alias moviemode-off='xset +dpms && xset s on'
