@@ -13,7 +13,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# enable color support of ls
+# enable color support of ls and fix ugly colors caused by stickybits
+# see https://ubuntuforums.org/showthread.php?p=4779965
 if [ "$TERM" != "dumb" ]; then
     eval "`dircolors ~/.mydircolors`"
 fi
