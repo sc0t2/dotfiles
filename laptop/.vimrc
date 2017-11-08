@@ -96,8 +96,6 @@ set background=dark
 "filetype-specific configs...some are redundant
 augroup configgroup
 	autocmd!
-	autocmd BufWritePre *.php,*.py,*.js,*.txt,*.hs,*.java,*.md
-		\:call <SID>StripTrailingWhiteSpaces()
 	autocmd FileType python setlocal commentstring=#\ %s
 	autocmd FileType python setlocal tabstop=4
 	autocmd FileType python setlocal expandtab
