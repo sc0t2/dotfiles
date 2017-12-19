@@ -20,5 +20,5 @@ URxvt*scrollBar:            false
 URxvt.perl-ext-common:      default,tabbed
 URxvt.tabbed.tabbar-fg:     -2
 URxvt.tabbed.tabbar-bg:     -1 
-URxvt.tabbed.tab-fg:        -2
-URxvt.tabbed.tab-bg:        -1 
+URxvt.tabbed.tab-fg:        -1
+URxvt.tabbed.tab-bg:        -2 
