@@ -1,12 +1,24 @@
 !color theme
-#include "/home/scott/Themes/tomorrow_dark"
+#define mybg #383C4A
+#define myfg #D3DAE3
+#define myfont Hack
+#define myfontsize 10
+#define mypadding 20
 
 !urxvt
-URxvt.visualBell:       true
-URxvt.font:             xft:Hack:size=14
-URxvt.scrollBar:        false
+URxvt*background:           mybg
+URxvt*foreground:           myfg
+URxvt*highlightColor:       myfg
+URxvt*highlightTextColor:   mybg
+URxvt*cursorColor:          myfg
+URxvt*cursorColor2:         mybg
+URxvt*font:                 xft:myfont:medium:size=myfontsize
+URxvt*internalBorder:       mypadding
+URxvt*scrollBar:            false
 
-!pseudo-transparency
-URxvt.transparent:      true
-URxvt.shading:          20
-
+!Tabs
+URxvt.perl-ext-common:      default,tabbed
+URxvt.tabbed.tabbar-fg:     -2
+URxvt.tabbed.tabbar-bg:     -1 
+URxvt.tabbed.tab-fg:        -2
+URxvt.tabbed.tab-bg:        -1 
