@@ -2,7 +2,7 @@
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
+	. /etc/bash.bashrc
 fi
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
@@ -15,8 +15,8 @@ fi
 
 # enable color support of ls and fix ugly colors caused by stickybits
 # see https://ubuntuforums.org/showthread.php?p=4779965
-if [ "$TERM" != "dumb" ]; then
-    eval "`dircolors ~/.mydircolors`"
-fi
+#if [ "$TERM" != "dumb" ]; then
+#    eval "`dircolors ~/.mydircolors`"
+#fi
 
-export PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/bin/shell-scripts:$HOME/Tools
+export PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/bin/shell_scripts:$HOME/Tools
