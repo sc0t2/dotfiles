@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/me/.config/i3'
+let g:netrw_dirhist_2='/home/me/builds/j4-make-config-git/src/j4-make-config'
+let g:netrw_dirhist_3='/home/me/.config/i3'
+let g:netrw_dirhist_4='/etc/xdg/surfraw'
