@@ -1,4 +1,4 @@
-#alias ls='ls --color=auto'
+alias ls='ls -G'
 alias l.='ls -Ad .*'
 alias ll='ls -al'
 #alias dir='ls --color=auto --format=vertical'
