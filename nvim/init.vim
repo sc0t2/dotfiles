@@ -8,5 +8,5 @@ source ~/.vimrc
 "call plug#begin()
 "Plug 'SirVer/ultisnips'
 "Plug 'honza/vim-snippets'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "call plug#end()
