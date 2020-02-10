@@ -12,12 +12,8 @@ if [ ! -d "~/.config/nvim" ]; then
 	mkdir -p ~/.config/nvim
 fi
 
-# install Python NeoVim module
-pip3 install --user neovim
-
 # symlink dotfiles
 dotfile ./bash/.bash_aliases ~/.bash_aliases
 dotfile ./nvim/init.vim ~/.config/nvim/init.vim
 dotfile ./tmux/.tmux.conf ~/.tmux.conf
 dotfile ./vim/.vimrc ~/.vimrc
-
