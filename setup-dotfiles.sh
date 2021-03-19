@@ -17,3 +17,4 @@ dotfile ./bash/.bash_aliases ~/.bash_aliases
 dotfile ./nvim/init.vim ~/.config/nvim/init.vim
 dotfile ./tmux/.tmux.conf ~/.tmux.conf
 dotfile ./vim/.vimrc ~/.vimrc
+dotfile ./zsh/.zshrc ~/.zshrc
