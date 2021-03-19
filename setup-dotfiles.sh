@@ -4,7 +4,7 @@
 function dotfile {
 	SRC=$1
 	DEST=$2
-	ln -s $(readlink -f $SRC) $DEST
+	ln -fs $(readlink -f $SRC) $DEST
 }
 
 # make nvim config directory if it doesn't exist
